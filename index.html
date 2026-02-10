@@ -62,9 +62,18 @@
     background-image: url('https://HunterCarter1111.github.io/Google_Earth_View_PadreRanch.jpg'); /* Specifies the image path */
     background-repeat: no-repeat; /* Prevents the image from tiling */
     background-size: cover; /* Scales the image to cover the entire viewport */
+    background-position: center;
     background-attachment: fixed; /* Fixes the image position during scrolling */
     background-color: #cccccc; /* Provides a background color if the image fails to load */
   }
+
+    @media (max-width: 768px){
+      body {
+        background-size: cover;
+        background-position: top center;
+
+      }
+    }
 </style>
 
 
