@@ -47,6 +47,35 @@
     .gallery img{width:calc(33.333% - 8px); border-radius:8px; height:120px; object-fit:cover; background:var(--glass)}
     @media (max-width:640px){.gallery img{width:calc(50% - 8px)}}
 
+
+    /*  gllary grok edit */
+
+    .gallary img {
+
+
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+
+    }
+
+    @media (min-width: 769px){
+      .gallary {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+      }
+
+      .gallary img {
+        width: auto;
+        height: 400px;
+        object-fit: cover;
+      }
+
+      
+
+    }
+
     footer{color:var(--muted); text-align:center; margin:28px 0}
 
     /* small helpers */
@@ -67,14 +96,7 @@
     background-color: #cccccc; /* Provides a background color if the image fails to load */
   }
 
-    .gallery img {
 
-          height: 400px
-          width:auto;
-          object-fit: cover;
-
-
-          }
 
     @media (max-width: 768px){
       body {
