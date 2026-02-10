@@ -44,7 +44,10 @@
 
     /* gallery */
     .gallery{display:flex; gap:8px; flex-wrap:wrap}
-    .gallery img{width:calc(33.333% - 8px); border-radius:8px; height:120px; object-fit:cover; background:var(--glass)}
+
+    /* change from height: 120px to height: auto */
+    
+    .gallery img{width:calc(33.333% - 8px); border-radius:8px; height: auto; object-fit:cover; background:var(--glass)}
     @media (max-width:640px){.gallery img{width:calc(50% - 8px)}}
 
 
